@@ -1,0 +1,8 @@
+torch
+torchvision
+pandas
+ipykernel
+mkdocs
+mkdocs-material
+mkdocs-jupyter
+mkdocs-material[imaging]
