@@ -1,5 +1,5 @@
 site_name: Apuntes de PyTorch y Redes Neuronales
-site_description: Apuntes de PyTorch y Redes Neuronales
+site_description: Apuntes personales de Fernando Carazo
 
 # repo_url: https://github.com/fernandocarazomelo/pytorch-deep-learning-es/
 # repo_name: fernandocarazomelo/pytorch-deep-learning-es
@@ -31,7 +31,7 @@ plugins:
 site_url: 'https://fernandocarazomelo.github.io/pytorch-deep-learning-es/'
 
 nav:
-  - Home: 'index.md'
+  - PyTorch y Redes Neuronales: 'index.md'
   - 01. Introducción a PyTorch. Tensores y Gradientes: '01_pytorch_fundamentals_es.ipynb'
   - 02. Redes Neuronales en PyTorch: '02_pytorch_linear_regression_es.ipynb'
   - 03. Clasificación de Imágenes con PyTorch: '03_pytorch_logistic_regression_es.ipynb'

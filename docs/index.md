@@ -1,4 +1,4 @@
-# Curso de PyTorch y Redes Neuronales
+# Apuntes de PyTorch y Redes Neuronales
 
 <div style="text-align: center;">
     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/PyTorch_logo_black.svg/2560px-PyTorch_logo_black.svg.png" style="width: 300px;">
