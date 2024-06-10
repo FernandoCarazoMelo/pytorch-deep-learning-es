@@ -4,19 +4,21 @@
     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/PyTorch_logo_black.svg/2560px-PyTorch_logo_black.svg.png" style="width: 300px;">
 </div>
 
-[PyTorch](https://pytorch.org) es una librería de código abierto para el desarrollo de modelos o aprendizaje profundo (Deep Learning) con redes neuronales. ChatGPT de OpenAI, AlphaGo de DeepMind y muchos otros sistemas de inteligencia artificial se han desarrollado utilizando PyTorch, por lo que es una herramienta clave para cualquier persona interesada en el campo de la inteligencia artificial.
 
-En esta web te comparto mis apuntes sobre PyTorch y redes neuronales utilizando Pytorch. 
+[PyTorch](https://pytorch.org) es una librería de código abierto para el desarrollo de modelos de inteligencia artificial con redes neuronales (Deep Learning). Aplicaciones como ChatGPT se han desarrollado con esta librería, por lo que PyTorch es una herramienta imprescindible para cualquier persona interesada en desarrollar aplicaciones de AI. 
 
-El material lo he preparado utilizando los siguienes recursos principales:
+En esta web te comparto mis apuntes personales sobre PyTorch. Si tienes alguna sugerencia o corrección, no dudes en contactarme a través de [mi perfil de LinkedIn](https://www.linkedin.com/in/fernandocarazomelo/) o hacer un pull request en el [repositorio de GitHub](https://github.com/FernandoCarazoMelo/pytorch-deep-learning-es).
+
+Para prearar este material me he basado principalmente en los siguienes recursos:
 
 - [PyTorch](https://pytorch.org/tutorials/) documentación oficial
-- [Jovian](https://jovian.ai/learn/deep-learning-with-pytorch-zero-to-gans)
-- [Learn PyTorch for Deep Learning](https://github.com/mrdbourke/pytorch-deep-learning/)
 - [3Blue1Brown](https://www.youtube.com/c/3blue1brown) canal del YouTube divulgativo de matemáticas y ciencia
+- [Learn PyTorch for Deep Learning](https://github.com/mrdbourke/pytorch-deep-learning/) curso de PyTorch de Daniel Bourke
+- [Jovian](https://jovian.ai/learn/deep-learning-with-pytorch-zero-to-gans) curso de PyTorch de Jovian
 - [Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow](https://www.oreilly.com/library/view/hands-on-machine-learning/9781492032632/) libro de Aurélien Géron
+- [Short-courses de DeepLearning.ai](https://www.deeplearning.ai/courses/) Cursos sobre procesamiento del lenguaje natural (NLP) de Andrew Ng y colaboradores
 
-### Temario del Curso de PyTorch y Redes Neuronales
+## Temario del Curso de PyTorch y Redes Neuronales
 
 
 - [x] **Lección 1: Fundamentos de PyTorch y Descenso de Gradiente**
@@ -54,15 +56,15 @@ El material lo he preparado utilizando los siguienes recursos principales:
     * Curva de entrenamiento, sobreajuste y subajuste
 
 
-- [ ] **Lección 6: Aumento de Datos, Regularización y Redes ResNet**
+- [ ] **Lección 6: Introducción a Transformers y HuggingFace**
 
-    * Añadir capas residuales con batch normalization a CNNs
-    * Disminución del ritmo de aprendizaje, decaimiento del peso y más
-    * Entrenamiento de un modelo de vanguardia en 5 minutos
+    * Modelos de lenguaje preentrenados y transferencia de aprendizaje
+    * Clasificación de texto con BERT y GPT-2
+    * Generación de texto con GPT-2 y GPT-3
 
 
-- [ ] **Lección 7: Redes Generativas Antagónicas y Aprendizaje por Transferencia**
+- [ ] **Lección 7: Procesamiento de Lenguaje Natural Avanzado con PyTorch**
 
-    * Generación de dígitos falsos y caras de anime con GANs
-    * Entrenamiento de redes generadoras y discriminadoras
-    * Aprendizaje por transferencia para la clasificación de imágenes
+    * Tokenización, incrustación de palabras y modelos de lenguaje
+    * Clasificación de sentimientos con una red neuronal recurrente
+    * Entrenamiento de modelos de lenguaje desde cero
