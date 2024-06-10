@@ -1,48 +1,4 @@
-name: CI
-on:
-  push:
-    branches:
-      - master
-      - main
-permissions:
-  contents: write
-jobs:
-  deploy:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
-
-      - name: Configure Git Credentials
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "999+github-actions[bot]@users.noreply.github.com"
-
-      - name: Setup Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: "3.x"
-
-      - name: Cache pip
-        uses: actions/cache@v4
-        with:
-          path: ~/.cache/pip
-          key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
-          restore-keys: |
-            ${{ runner.os }}-pip-
-
-      - name: Install dependencies
-        run: |
-          pip install mkdocs-material
-          pip install mkdocs-jupyter
-          pip install mkdocs-material[imaging]
-
-      - name: Build and Deploy
-        run: mkdocs gh-deploy --force
-
-
-
-        name: ci 
+name: ci 
 on:
   push:
     branches:
