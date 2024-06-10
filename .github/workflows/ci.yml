@@ -35,6 +35,7 @@ jobs:
         run: |
           pip install mkdocs-material
           pip install mkdocs-jupyter
+          pip install mkdocs-material[imaging]
 
       - name: Build and Deploy
         run: mkdocs gh-deploy --force
