@@ -1,4 +1,4 @@
-site_name: Curso de PyTorch e Inteligencia Artificial
+site_name: Curso de PyTorch y Redes Neuronales
 site_description: Aprende PyTorch de forma práctica para resolver problemas de inteligencia artificial.
 
 # repo_url: https://github.com/fernandocarazomelo/pytorch-deep-learning-es/
@@ -31,9 +31,10 @@ plugins:
 
 nav:
   - Home: 'index.md'
-  - 01. Primeros pasos con PyTorch: '01_pytorch_fundamentals_es.ipynb'
-  - 02. Flujo de trabajo con Pytorch: '02_pytorch_linear_regression_es.ipynb'
-  - 03. Visión por Computadora con PyTorch: '03_pytorch_logistic_regression_es.ipynb'
+  - 01. Introducción a PyTorch. Tensores y Gradientes: '01_pytorch_fundamentals_es.ipynb'
+  - 02. Redes Neuronales en PyTorch: '02_pytorch_linear_regression_es.ipynb'
+  - 03. Clasificación de Imágenes con PyTorch: '03_pytorch_logistic_regression_es.ipynb'
+  
   # - 04. Conjuntos de Datos Personalizados con PyTorch: '04_pytorch_custom_datasets_es.ipynb'
   # - 06. Aprendizaje por Transferencia con PyTorch: '06_pytorch_transfer_learning_es.ipynb'
   # - 07. Seguimiento de Experimentos con PyTorch: '07_pytorch_experiment_tracking_es.ipynb'
