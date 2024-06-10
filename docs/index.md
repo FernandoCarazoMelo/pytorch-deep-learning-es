@@ -6,12 +6,15 @@
 
 [PyTorch](https://pytorch.org) es una librería de código abierto para el desarrollo de modelos o aprendizaje profundo (Deep Learning) con redes neuronales. ChatGPT de OpenAI, AlphaGo de DeepMind y muchos otros sistemas de inteligencia artificial se han desarrollado utilizando PyTorch, por lo que es una herramienta clave para cualquier persona interesada en el campo de la inteligencia artificial.
 
-En esta serie de tutoriales se presenta una introducción práctica a las redes neuronales utilizando Pytorch. Este material se ha preparado utilizando los siguienes recursos:
+En esta web te comparto mis apuntes sobre PyTorch y redes neuronales utilizando Pytorch. 
+
+El material lo he preparado utilizando los siguienes recursos principales:
 
 - [PyTorch](https://pytorch.org/tutorials/) documentación oficial
 - [Jovian](https://jovian.ai/learn/deep-learning-with-pytorch-zero-to-gans)
 - [Learn PyTorch for Deep Learning](https://github.com/mrdbourke/pytorch-deep-learning/)
 - [3Blue1Brown](https://www.youtube.com/c/3blue1brown) canal del YouTube divulgativo de matemáticas y ciencia
+- [Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow](https://www.oreilly.com/library/view/hands-on-machine-learning/9781492032632/) libro de Aurélien Géron
 
 ### Temario del Curso de PyTorch y Redes Neuronales
 

@@ -1,1 +1,1 @@
-# Aprende pytorch desde cero
+# Apuntes de PyTorch y Redes Neuronales
