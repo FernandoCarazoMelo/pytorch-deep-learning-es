@@ -6,44 +6,60 @@
 
 [PyTorch](https://pytorch.org) es una librería de código abierto para el desarrollo de modelos o aprendizaje profundo (Deep Learning) con redes neuronales. ChatGPT de OpenAI, AlphaGo de DeepMind y muchos otros sistemas de inteligencia artificial se han desarrollado utilizando PyTorch, por lo que es una herramienta clave para cualquier persona interesada en el campo de la inteligencia artificial.
 
-En esta serie de tutoriales se presenta una introducción práctica a las redes neuronales utilizando Pytorch.
+En esta serie de tutoriales se presenta una introducción práctica a las redes neuronales utilizando Pytorch. Este material se ha preparado utilizando los siguienes recursos:
+
+- [PyTorch](https://pytorch.org/tutorials/) documentación oficial
+- [Jovian](https://jovian.ai/learn/deep-learning-with-pytorch-zero-to-gans)
+- [Learn PyTorch for Deep Learning](https://github.com/mrdbourke/pytorch-deep-learning/)
+- [3Blue1Brown](https://www.youtube.com/c/3blue1brown) canal del YouTube divulgativo de matemáticas y ciencia
 
 ### Temario del Curso de PyTorch y Redes Neuronales
 
-**Lección 1: Fundamentos de PyTorch y Descenso de Gradiente**
 
-- Conceptos básicos de PyTorch: tensores, gradientes y autograd
-- Regresión lineal y descenso de gradiente desde cero
-- Uso de módulos de PyTorch: `nn.Linear` y `nn.functional`
+- [x] **Lección 1: Fundamentos de PyTorch y Descenso de Gradiente**
 
-**Lección 2: Trabajo con Imágenes y Regresión Logística**
-
-  - División de entrenamiento y validación en el conjunto de datos MNIST
-  - Regresión logística, softmax y entropía cruzada (cross-entropy)
-  - Entrenamiento del modelo, evaluación y predicción
+    * Conceptos básicos de PyTorch: tensores, gradientes y autograd
+    * Regresión lineal y descenso de gradiente desde cero
 
 
-**Lección 3: Entrenamiento de Redes Neuronales Profundas en GPU**
+- [x] **Lección 2: Introducción a Redes Neuronales con PyTorch**
 
-  - Redes neuronales multicapa usando `nn.Module`
-  - Funciones de activación, no linealidad y retropropagación
-  - Entrenamiento de modelos más rápido usando GPUs en la nube
+    * Conceptos básicos: neurona, funcion de activación, función de pérdida
+    * Flujo estándard de entrenamiento de una red neuronal con descenso de gradiente
+    * Uso de módulos de PyTorch: `nn.Linear` y `nn.functional`
 
 
-**Lección 4: Clasificación de Imágenes con Redes Neuronales Convolucionales**
+- [x] **Lección 3: Trabajo con Imágenes y Regresión Logística**
 
-- Trabajo con imágenes RGB de 3 canales
-- Convoluciones, kernels y mapas de características
-- Curva de entrenamiento, sobreajuste y subajuste
+    * División de entrenamiento y validación en el conjunto de datos MNIST
+    * Regresión logística, softmax y entropía cruzada (cross-entropy)
+    * Entrenamiento del modelo, evaluación y predicción
 
-**Lección 5: Aumento de Datos, Regularización y Redes ResNet**
 
-- Añadir capas residuales con batch normalization a CNNs
-- Disminución del ritmo de aprendizaje, decaimiento del peso y más
-- Entrenamiento de un modelo de vanguardia en 5 minutos
+- [ ] **Lección 4: Entrenamiento de Redes Neuronales Profundas en GPU**
 
-**Lección 6: Redes Generativas Antagónicas y Aprendizaje por Transferencia**
+    * Redes neuronales multicapa usando `nn.Module`
+    * Funciones de activación, no linealidad y retropropagación
+    * Entrenamiento de modelos más rápido usando GPUs en la nube
 
-  - Generación de dígitos falsos y caras de anime con GANs
-  - Entrenamiento de redes generadoras y discriminadoras
-  - Aprendizaje por transferencia para la clasificación de imágenes
+
+
+- [ ] **Lección 5: Clasificación de Imágenes con Redes Neuronales Convolucionales**
+
+    * Trabajo con imágenes RGB de 3 canales
+    * Convoluciones, kernels y mapas de características
+    * Curva de entrenamiento, sobreajuste y subajuste
+
+
+- [ ] **Lección 6: Aumento de Datos, Regularización y Redes ResNet**
+
+    * Añadir capas residuales con batch normalization a CNNs
+    * Disminución del ritmo de aprendizaje, decaimiento del peso y más
+    * Entrenamiento de un modelo de vanguardia en 5 minutos
+
+
+- [ ] **Lección 7: Redes Generativas Antagónicas y Aprendizaje por Transferencia**
+
+    * Generación de dígitos falsos y caras de anime con GANs
+    * Entrenamiento de redes generadoras y discriminadoras
+    * Aprendizaje por transferencia para la clasificación de imágenes

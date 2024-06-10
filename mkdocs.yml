@@ -11,6 +11,7 @@ theme:
   features:
     - navigation.instant
     - navigation.top
+    - navigation.footer
   palette:
     primary: black
 
@@ -47,6 +48,9 @@ nav:
 #   # - Three Most Common PyTorch Errors: 'pytorch_most_common_errors.ipynb'
 #   # - Test 00 as markdown: '00_pytorch_fundamentals.md'
 
-# extra:
-#   social:
-#       link: https://github.com/mrdbourke/pytorch-deep-learning
+extra:
+  social:
+    - icon: fontawesome/brands/linkedin 
+      link: https://www.linkedin.com/in/fernandocarazo/
+    - icon: fontawesome/brands/github 
+      link: https://github.com/fernandocarazomelo
