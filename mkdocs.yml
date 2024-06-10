@@ -28,7 +28,7 @@ plugins:
  - search
  - social
 
-# edit_uri: ""
+site_url: "https://fernandocarazomelo.github.io/pytorch-deep-learning-es/"
 
 nav:
   - Home: 'index.md'
