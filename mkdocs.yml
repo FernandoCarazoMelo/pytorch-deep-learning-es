@@ -37,6 +37,15 @@ nav:
   - 03. Clasificación de Imágenes con PyTorch: '03_pytorch_logistic_regression_es.ipynb'
   - 04-00_pytorch_fundamentals: '04-00_pytorch_fundamentals.ipynb'
   - 05-01_pytorch_workflow: '05-01_pytorch_workflow.ipynb'
+  - 06-04_pytorch_custom_datasets.ipynb: '06-04_pytorch_custom_datasets.ipynb'
+  - 07-04-feedforward-nn.ipynb: '07-04-feedforward-nn.ipynb'
+  - 08-05-cifar10-cnn.ipynb: '08-05-cifar10-cnn.ipynb'
+  - 09-03_pytorch_computer_vision.ipynb: '09-03_pytorch_computer_vision.ipynb'
+  - 10-07_pytorch_experiment_tracking.ipynb: '10-07_pytorch_experiment_tracking.ipynb'
+  - 11-06_pytorch_transfer_learning.ipynb: '11-06_pytorch_transfer_learning.ipynb'
+  - 12-08_pytorch_paper_replicating.ipynb: '12-08_pytorch_paper_replicating.ipynb'
+  - 13-09_pytorch_model_deployment.ipynb: '13-09_pytorch_model_deployment.ipynb'
+
   # - 04. Conjuntos de Datos Personalizados con PyTorch: '04_pytorch_custom_datasets_es.ipynb'
   # - 06. Aprendizaje por Transferencia con PyTorch: '06_pytorch_transfer_learning_es.ipynb'
   # - 07. Seguimiento de Experimentos con PyTorch: '07_pytorch_experiment_tracking_es.ipynb'
@@ -55,3 +64,10 @@ extra:
       link: https://www.linkedin.com/in/fernandocarazo/
     - icon: fontawesome/brands/github 
       link: https://github.com/fernandocarazomelo
+
+
+
+
+
+
+
