@@ -34,7 +34,7 @@ Para prearar este material me he basado principalmente en los siguienes recursos
     * Uso de módulos de PyTorch: `nn.Linear` y `nn.functional`
 
 
-- [x] **Lección 3: Trabajo con Imágenes y Regresión Logística**
+- [x] **Lección 3: Procesamiento de Imágenes y Regresión Logística**
 
     * División de entrenamiento y validación en el conjunto de datos MNIST
     * Regresión logística, softmax y entropía cruzada (cross-entropy)

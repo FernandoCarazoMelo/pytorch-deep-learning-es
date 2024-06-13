@@ -35,7 +35,8 @@ nav:
   - 01. Introducción a PyTorch. Tensores y Gradientes: '01_pytorch_fundamentals_es.ipynb'
   - 02. Redes Neuronales en PyTorch: '02_pytorch_linear_regression_es.ipynb'
   - 03. Clasificación de Imágenes con PyTorch: '03_pytorch_logistic_regression_es.ipynb'
-  
+  - 04-00_pytorch_fundamentals: '04-00_pytorch_fundamentals.ipynb'
+  - 05-01_pytorch_workflow: '05-01_pytorch_workflow.ipynb'
   # - 04. Conjuntos de Datos Personalizados con PyTorch: '04_pytorch_custom_datasets_es.ipynb'
   # - 06. Aprendizaje por Transferencia con PyTorch: '06_pytorch_transfer_learning_es.ipynb'
   # - 07. Seguimiento de Experimentos con PyTorch: '07_pytorch_experiment_tracking_es.ipynb'
