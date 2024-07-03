@@ -46,6 +46,7 @@ nav:
   - 12-08_pytorch_paper_replicating.ipynb: '12-08_pytorch_paper_replicating.ipynb'
   - 13-09_pytorch_model_deployment.ipynb: '13-09_pytorch_model_deployment.ipynb'
   - Neural Embeddings: 'embeddings.ipynb'
+  - Tutorial Delta Lake Spark: '14-tutorial_spark_delta.ipynb'
 
   # - 04. Conjuntos de Datos Personalizados con PyTorch: '04_pytorch_custom_datasets_es.ipynb'
   # - 06. Aprendizaje por Transferencia con PyTorch: '06_pytorch_transfer_learning_es.ipynb'
